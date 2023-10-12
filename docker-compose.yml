@@ -30,7 +30,7 @@ services:
     environment:
       MARIADB_ROOT_PASSWORD: root
     volumes:
-      - ./database:/var/lib/mysql
+      - ./database/data:/var/lib/mysql
     ports:
       - "3306:3306"
 
